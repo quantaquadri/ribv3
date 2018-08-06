@@ -2301,7 +2301,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area .overlay-bg {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .banner-content {
@@ -2310,7 +2310,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-content h1 {
-  font-size: 54px;
+  font-size: 72px;
   font-weight: 700;
   line-height: 1em;
   margin-top: 20px;
@@ -2366,7 +2366,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .single-service {
   padding: 30px;
   text-align: center;
-  background-color: #fff5f9;
+  background-color: #fdfdfd;
 }
 
 .single-service .lnr {

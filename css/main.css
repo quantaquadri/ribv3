@@ -1898,6 +1898,7 @@ h1, h2, h3, h4, h5, h6 {
 .header-top a {
   color: #fff;
   font-size: 12px;
+  font-weight: 600;
 }
 
 .top-head-left ul li {
@@ -2042,7 +2043,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   display: inline-block;
   color: #fff;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 12px;
   text-transform: uppercase;
   outline: none;
@@ -2300,9 +2301,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
 }
 
-.banner-area .overlay-bg {
-  background-color: rgba(0, 0, 0, 0.7);
+.banner-fav {
+  background: url("../img/ry.jpg") center;
+  background-size: cover;
 }
+
+.banner-area .overlay-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-fav .overlay-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 
 .banner-content {
   margin-top: 40px;
@@ -2452,7 +2463,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .exibition-area {
-  background-color: #fff5f9;
+  background-color: #fafafa;
 }
 
 .exibition-area .owl-dots {
@@ -2484,7 +2495,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background: #88d200;
+  background: #f9508c;
 }
 
 .single-exibition .tags {
@@ -2508,7 +2519,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-exibition .tags li:hover {
-  background-color: #88d200;
+  background-color: #f9508c;
 }
 
 .single-exibition .tags li:hover a {

@@ -1,45 +1,4 @@
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/*This is main CSS file that contains custom style rules used in this template*/
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/* Template Name: NTGBlog*/
-/* Version: 1.0 auto Release*/
-/* Build Date: 07-08-2015*/
-/* Author: Unbranded*/
-/* Website: http://moonart.net.ua/antoncut/NRGBlog/
-/* Copyright: (C) 2015 */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/*--------------------------------------------------------*/
-/* TABLE OF CONTENTS: *//*
 
-    01 - FONTS
-    02 - RESET
-    03 - GLOBAL STYLES
-    04 - LOADER
-    05 - HEADER
-    06 - CONTENT
-    07 - POST GRID ITEM
-    08 - POST LIST ITEM
-    09 - POST COL ITEM
-    10 - POST BLOCK ITEM
-    11 - POST ROUND ITEM
-    12 - MAIN POST SLIDER
-    13 - FOOTER
-    14 - MEDIA QUARTES
-    15 - CSS ANIMATIONS
-    16 - POST BLOCK
-    17 - WIDE POST
-    18 - MODAL POPUP
-    19 - LINK SLIDER
-    20 - BIG SLIDER
-    21 - WIDJETS           
-    22 - BLUR SLIDR
-    23 - BLOG POST
-    24 - BLOG DETAIL               
-
-*//*--------------------------------------------------------*/
-/* 01 - FONTS */
-/*@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&subset=latin,latin-ext);*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 02 - RESET STYLES */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -564,11 +523,11 @@ footer .r-post:not(:last-child){ margin-bottom: 20px; display: block;}
 .footer-slider .pagination { display: none; }
 .footer-slider .swiper-arrow-left, .footer-slider .swiper-arrow-right { display: none; }
 .subscribe-block input[type="email"]{
-    width: 100%; display: block;background: #fff; color: #111111; padding: 0 15px 0 20px; border: 1px solid #f2f2f2;
+    width: 100%; display: block;background: #fff; color: #111111; padding: 0 15px 0 20px; border: 1px solid #777;
     margin-bottom: 9px;
     font-family: 'Source Sans Pro'; font-size: 10px; letter-spacing: 2px; line-height: 40px; }
 .subscribe-block input[type="submit"]{
-    width: 100%;background: #fff;text-align: center;color: #111111;text-transform: uppercase; font-size: 10px;line-height: 36px; border: 1px solid #f2f2f2;
+    width: 100%;background: #04091e;text-align: center;color: #fff;text-transform: uppercase; font-size: 16px;line-height: 36px; border: 1px solid #777;
     font-family: 'Montserrat', sans-serif ;-webkit-transition: all ease-out 0.3s;
     -o-transition: all ease-out 0.3s;
     -moz-transition: all ease-out 0.3s;
@@ -576,8 +535,8 @@ footer .r-post:not(:last-child){ margin-bottom: 20px; display: block;}
     transition: all ease-out 0.3s;}
 .subscribe-block input[type="submit"]:hover{background: #111111;color: #ffffff;}
 .subscribe-block p{font-size: 12px;letter-spacing: 1px;line-height: 26px;font-weight: 400;font-family: 'Source Sans Pro';margin-bottom: 20px;margin-top: -7px;}
-.footer.style-3{ background: #111111; padding: 70px 0 100px 0; margin-bottom: 0;}
-.footer.style-3 .text-widget-title, .footer.style-3 .widget-title{color: #fff;}
+.footer.style-3{ background: #fff5f9; padding: 70px 0 100px 0; margin-bottom: 0;}
+.footer.style-3 .text-widget-title, .footer.style-3 .widget-title{color: #04091e;}
 .footer.style-3 .text-widget-text, .footer.style-3 .r-post .r-post-date,.footer.style-3 .subscribe-block p{color: #727272;}
 .footer.style-3 .r-post .r-post-link{color: #fff; font-weight: 400;}
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -871,7 +830,7 @@ a, .page-left:before, .page-right:before, .cmn-toggle-switch.active span::before
     color: #111111;
     display: block;}
 .wide-post .title:hover{color: #bababa; }
-.wide-post .description{font-family: 'Source Sans Pro'; color: #c2c2c2; font-size: 12px; line-height: 26px;letter-spacing: 1px;}
+.wide-post .description{font-family: 'Source Sans Pro'; color: #777; font-size: 12px; line-height: 26px;letter-spacing: 1px;}
 /*wide right image post*/
 .wide-post.type-r .img{left: auto; right: 70px;}
 .wide-post.type-r .img:hover{left: auto; right: 65px;}
@@ -1718,7 +1677,7 @@ transition: all ease-out 0.3s;}
 img.contact {margin-bottom: 42px;}
 .contact.title-w{margin-bottom: 29px;}
 @media screen and (max-width: 991px){
-    .header.style-2 header{position: fixed !important;background-color:#EEE !important;}
+    .header.style-2 header{position: fixed !important;background-color:#EEE !important;padding-bottom: 70px !important;}
 .header.style-2 header .container {position: relative !important;}
 .header.style-2 header .top-line{position: absolute !important;}
 .header.style-2.style-3 #content-wrapper{padding-top: 75px !important;}
